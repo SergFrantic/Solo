@@ -1,0 +1,62 @@
+h1{
+  text-align: center;
+  font-size: 80px;
+}
+
+
+a{
+	padding: 20px 20px;/* отступы от текста до краев */
+  border: black;
+	text-decoration: none;/* убираем декорирование */
+	-moz-appearance: button; /* преобразование для Firefox */
+	-webkit-appearance: button; /* преобразование для Chromium */	
+  font-size: 40px;
+}
+
+button{
+  font-size: 40px;
+  border-radius: 25px;
+  padding: 10px 10px;
+}
+
+div{
+  font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+BODY {
+  background: khaki;
+  text-align: center;
+  font-size: 10px;
+  }
+
+IMG {
+  margin: 1em .5em;
+  vertical-align: middle;
+  }
+
+.gold {
+  border: 65px solid gold;
+  border-image-source: url(//img-fotki.yandex.ru/get/9165/5091629.99/0_7eb45_d2e10a7a_L.jpg);
+  border-image-slice: 70;
+  border-image-repeat: round;
+  }
+.lace {
+  border: 60px solid transparent;
+  border-image-source: url(//img-fotki.yandex.ru/get/9165/5091629.99/0_7eb47_d1bead75_XL.png);
+  border-image-slice:  105 81;
+  border-image-repeat: round;
+  }
+.flowers {
+  border: 75px solid transparent;
+  border-image-source: url(//img-fotki.yandex.ru/get/9250/981986.83/0_8f42c_b01bb34_XL.png);
+  border-image-slice:  150;
+  border-image-repeat: round;
+  }
